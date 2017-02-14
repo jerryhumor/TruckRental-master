@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">Truck Rental</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">邮箱</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="action_register_user">注册</string>
+    <string name="action_register_driver">成为货车车主></string>
+    <string name="error_invalid_email">输入的邮箱不合法</string>
+    <string name="error_invalid_password">输入密码太短</string>
+    <string name="error_incorrect_password">账户或者密码输入不正确</string>
+    <string name="error_field_required">请输入邮箱</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- String related to driver login -->
+    <string name="label_driver_login">司机登录</string>
+
+    <!-- String related to register for user -->
+    <string name="label_register_user">用户注册</string>
+
+    <!-- String related to register for driver -->
+    <string name="label_register_driver">司机注册</string>
+    <string name="label_driver_rule">条款及细则</string>
+    <string name="prompt_driver_name">姓名</string>
+    <string name="prompt_driver_phone">电话</string>
+    <string name="prompt_driver_password">密码</string>
+    <string name="prompt_driver_car_type">车型</string>
+    <string name="prompt_driver_city">所在城市</string>
+    <string name="prompt_driver_license_plate">车牌号</string>
+    <string name="prompt_driver_license">驾照号</string>
+    <string name="prompt_driver_small_van">小面包车</string>
+    <string name="prompt_driver_van">中面包车</string>
+    <string name="prompt_driver_small_truck">小货车</string>
+    <string name="prompt_driver_truck">中货车</string>
+    <string name="action_driver_register_driverInfo">我明白并同意以上条款及细则</string>
+    <string name="action_driver_read_rule">成为司机前先阅读</string>
+    <string name="action_driver_rule">条款及细则</string>
+
+
+    <!-- String related to driver's rule-->
+    <string name="text_driver_rule">
+        <b>第一! </b>\n
+        绝对不意气用事!\n
+        <b>第二! </b>\n
+        绝对不漏判任何一件坏事!\n
+        <b>第三! </b>\n
+        绝对裁判的公正漂亮!\n
+    </string>
+
+    <!-- String related to create order-->
+    <string name="label_order_create">订单创建</string>
+    <string name="hint_departure">按此输入出发地或点击右边定位</string>
+    <string name="hint_destination">按此输入目的地</string>
+    <string name="hint_explain"><b>+</b>添加额外需求（若不需要则不填写）</string>
+    <string name="hint_follower_explain">面包车：0 || 小货车：0-2 || 中货车：0-3 </string>
+    <string name="prompt_order_back">回  城</string>
+    <string name="prompt_order_carry">搬  运</string>
+    <string name="prompt_order_followers">跟车人数：</string>
+    <string name="prompt_order_remarks">备注：</string>
+    <string name="hint_order_remarks">备注:(若无则不填写)</string>
+    <string name="action_order_create">即时用车（20分钟内）</string>
+    <string name="action_order_create_advanced">预约</string>
+
+    <!-- -->
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!-- String related to myAdapter-->
+    <string name="prompt_appointment_order">预约订单</string>
+    <string name="prompt_immediate_order">即时订单</string>
+
+    <!-- String related to main function of driver-->
+    <string name="label_main_driver">司机主页</string>
+    <string name="prompt_driver_resting">休息中</string>
+    <string name="prompt_driver_working">工作中</string>
+    <string name="action_driver_info">我的</string>
+    <string name="action_driver_orders">待完成订单</string>
+    <string name="action_driver_record">订单记录</string>
+    <string name="action_driver_change_password">密码修改</string>
+    <string name="action_driver_show_info">信息展示</string>
+    <string name="action_driver_show_level">等级显示</string>
+
+    <!-- String related to order_details-->
+    <string name="take_order">立即抢单</string>
+    <string name="order_details">订单详情</string>
+    <string name="price_details">价格明细</string>
+    <string name="back">回程</string>
+    <string name="carry">搬运</string>
+
+    <!-- String related to driver's rule-->
+    <string name="text_price_details">
+        <b>这里是计价规则一！</b>\n
+        <b>这里是计价规则二！</b>\n
+        <b>这里是计价规则三！</b>\n
+    </string>
+
+    <!--String related to driver's running orders show-->
+    <string name="driver_all_orders">待完成订单</string>
+    <string name="action_navigate">开始导航</string>
+
+    <!--String related to driver's all orders show-->
+    <string name="driver_completed_orders">订单记录</string>
+    <string name="prompt_order_user_cancel">用户取消</string>
+    <string name="prompt_order_driver_cancel">司机取消</string>
+    <string name="prompt_order_finished">已完成</string>
+    <string name="prompt_order_running">进行中</string>
+</resources>
